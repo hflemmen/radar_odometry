@@ -1,0 +1,6 @@
+[submodule "thirdparty/radar_utils"]
+	path = thirdparty/radar_utils
+	url = git@github.com:hflemmen/radar_utils.git
+[submodule "thirdparty/manif"]
+	path = thirdparty/manif
+	url = https://github.com/artivis/manif.git
