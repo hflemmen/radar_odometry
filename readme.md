@@ -65,3 +65,8 @@ python3 dataset_processing.py $HOME/Data/b
 To use the generated cache you need to set `use_cache=True` in `software_config.py`.
 
 
+### Licence
+
+This code is available under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+![by-nc-nd.eu.svg](files/by-nc-nd.eu.svg)
