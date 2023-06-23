@@ -4,6 +4,6 @@ from dataclasses import dataclass
 
 @dataclass
 class HardwareConfig:
-    in_path = "/home/henrik/" + "Downloads/b/"
+    in_path = "../data/b/"
     T_g0_r0_tuple = (-1.3, 0, 0)  # Release data (Radar 0)
     clockwise = False

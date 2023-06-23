@@ -1,2 +1,7 @@
 # Project exclude paths
 /venv/
+build
+__pycache__
+.idea
+*.egg-info
+data

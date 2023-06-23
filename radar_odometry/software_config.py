@@ -58,8 +58,8 @@ class SoftwareConfig:
 
     ## Evaluation
     rpe_interval = 5  # [iterations]
-    home_folder = "/home/henrik/"
-    base_path = home_folder + 'Results/fig_2300623_release/'
+    home_folder = "./"
+    base_path = home_folder + 'Results/run/'
     sub_path = ''
     verbose = True
     show_visualisation = True

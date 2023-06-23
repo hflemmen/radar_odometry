@@ -82,11 +82,6 @@ def set_up_result_folder(
     iterpath = sw_cfg.get_iteration_path(hw_cfg.in_path)
     os.makedirs(iterpath, exist_ok=True)
 
-    project_folder = "/home/henrik/projects/"
-    shutil.copy(project_folder + "radar_odometry/radar_odometry/software_config.py",
-                iterpath + "software_config.py")
-    shutil.copy(project_folder + "radar_odometry/radar_odometry/hardware_config.py",
-                iterpath + "hardware_config.py")
     print(f"Storing to folder: {iterpath}")
     return sw_cfg
 
@@ -145,7 +140,7 @@ def main(sw_cfg, hw_cfg):
 
         if sw_cfg.image_layout == sw_cfg.ImageLayout.Cartesian:
             scan_euc_rn = radar_utils.transformations.polarToEuc(scan_polar_rn, new_size=np.array([6000, 6000]),
-                                                                use_cache=sw_cfg.use_cache)
+                                                                 use_cache=sw_cfg.use_cache)
             scan_rn = scan_euc_rn
         elif sw_cfg.image_layout == sw_cfg.ImageLayout.Polar:
             scan_rn = scan_polar_rn
