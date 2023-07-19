@@ -1,8 +1,8 @@
 # Maritime radar odometry
 
-This repository contains code for estimating the motion of a ship, using only the navigation radar.
+This repository contains code for estimating the motion of a ship, using only the navigation radar. 
 
-TODO: Add link to paper when published.
+The method is described in greater detail in the [paper](files/paper.pdf).
 
 ## Requirements
 
